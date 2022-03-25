@@ -1,0 +1,7 @@
+= AutoEnrollTaskLauncher
+
+A little helper utility to ease certificate management in times of intense home office usage due to the COVID-19 pandemic.
+
+For remote clients that are domain joined, there may be situations where the built-in triggers for Autoenrollment are never launched whilst a user is connected to the corporate network. Certificates may therefore expire, and if these are required for the VPN connection, we have a catch 22 situation.
+
+The AutoEnrollTaskLauncher just fires the Autoenrollment job on Windows clients when a connection to the corporate network is detected.
